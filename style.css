@@ -13,7 +13,11 @@ a {
   padding-left: 10px;
 }
 
-img
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 figcaption {
   text-align: center;
@@ -25,8 +29,12 @@ p #featured-property {
  text-align: center;
 }
 
-.details {
-  text-align: horizontal;
+section #details >div {
   display: block;
-  
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: .25;
 }
+
+
